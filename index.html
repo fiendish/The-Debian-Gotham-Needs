@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head><title>The Debian ISO That Gotham Needs</title></head>
-    <body style="text-align:center">
+    <head>
+    <title>The Debian ISO That Gotham Needs</title>
+    <style type="text/css">
+    #gh a {background:#044;color:#fff;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:0px 30px;font-size:1rem;line-height:2rem;position:absolute;transition:0.25s;left:0;right:0}
+    #gh a:hover {background:#060;}
+    #gh a::before,#gh a::after {content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}
+    #gh a::after {bottom:1px;top:auto;}
+    @media screen and (min-width:860px){
+    #gh {position:absolute;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;}
+    #gh a {width:200px;position:absolute;top:60px;right:-70px;transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+    }
+    body {text-align:center;}
+    #fo {position:fixed;bottom:0;width:100%;border-width:0;}
+    #it {font-style:italic;}
+    </style>
+    </head>
+    <body>
         <h1>
-            Which Debian ISO Should You Download?<br>
-            &dArr;<br>
-            &rArr; <a href="http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/">ALMOST CERTAINLY THIS ONE</a> &lArr;<br>
-            (64bit+firmware)<br>
+            Which Debian ISO Should You Download?<br />
+            &dArr;<br />
+            <a href="http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/">ALMOST CERTAINLY THIS ONE</a><br />
+            (64bit+firmware)<br />
             &uArr;
         </h1>
-        <h5>You were going to install nonfree wifi firmware <i>anyway</i>. Disagree? <a href="https://www.debian.org/distrib/">Have fun here</a>.</h5>
-        And don't forget: <code>cat debian.iso > /dev/sdx</code>
-
-        <div style="position:fixed;bottom:0;width:100%"><hr><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>
-            Lol. The code for this is longer than the rest of the page.</div>
-
+        <h5>You were going to install nonfree wifi firmware <span id="it">anyway</span>. Disagree? <a href="https://www.debian.org/distrib/">Have fun here</a>.</h5>
+        And don't forget:<br /> <code>cat debian.iso > /dev/sdx</code>
+	    <br /><br /><br />
+	    <span id="gh"><a href="https://github.com/fiendish/The-Debian-Gotham-Needs">Fork&nbsp;me&nbsp;on&nbsp;GitHub...lol</a></span>
+        <div id="fo"><hr /><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" width="88" height="31" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />
+        Lol. The code for this is longer than the rest of the body.</div>
     </body>
 </html>
 
