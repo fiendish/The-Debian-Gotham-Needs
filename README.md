@@ -2,7 +2,7 @@
   
 <a href="https://lists.debian.org/debian-vote/2022/10/msg00000.html">https://lists.debian.org/debian-vote/2022/10/msg00000.html
 
-![all_of_this_repo](https://user-images.githubusercontent.com/201996/193473145-b63d776c-775a-4afe-9406-c57090b8b8cd.jpg)</a>
+<img src="images/all_of_this_repo.jpg"></a>
 
 
 <strike>Because DFSG produces the Debian Gotham deserves, but not the one it needs right now.</strike>
