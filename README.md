@@ -4,12 +4,11 @@
 
 <img src="images/all_of_this_repo.jpg"></a>
 
+For our updated celebration announcement, go here: https://fiendish.github.io/The-Debian-Gotham-Needs
 
 <strike>Because DFSG produces the Debian Gotham deserves, but not the one it needs right now.</strike>
 ====================
 <strike>
 The sanest page for downloading a Debian ISO for your computer.
 Because I can say with 99.9% certainty that your computer is very probably x86_64 and needs non-free WiFi firmware.
-
-Go here: https://fiendish.github.io/The-Debian-Gotham-Needs
 </strike>
